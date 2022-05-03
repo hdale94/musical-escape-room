@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{02256d13-037d-4a4d-abc4-07fbd96d97f8}">
+		<property name="assetPath">
+			<value>CassettePlayerClick4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.8571428571428571</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e5b39987-de2b-42a9-83d4-4fbb2a6e58f2}</destination>
+		</relationship>
+	</object>
+</objects>

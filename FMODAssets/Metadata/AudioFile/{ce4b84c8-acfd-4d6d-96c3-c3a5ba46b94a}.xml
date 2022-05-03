@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ce4b84c8-acfd-4d6d-96c3-c3a5ba46b94a}">
+		<property name="assetPath">
+			<value>Second Puzzle Solved.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.5714285714285716</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e5b39987-de2b-42a9-83d4-4fbb2a6e58f2}</destination>
+		</relationship>
+	</object>
+</objects>

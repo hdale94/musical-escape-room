@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{dd4ed31e-dcae-4b2f-ae42-8bbced938d65}">
+		<property name="name">
+			<value>Freq Pitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8c6853c9-4e8d-4218-90a4-2a9731dd1435}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{964f26f3-d163-4d50-a707-a4306a1258ee}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{964f26f3-d163-4d50-a707-a4306a1258ee}">
+		<property name="maximum">
+			<value>1.2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
