@@ -245,7 +245,7 @@ public class CharacterMainScript : MonoBehaviour
                     lightScript.LightSwitchOff();
                 }
 
-                //p
+                //Painting
                 else if (raycastHit.collider.name == "Painting")
                 {
                     rigidbodyPainting.isKinematic = false;
