@@ -227,7 +227,7 @@ public class OscillatorScript : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         //Check if sequencies are in correct order
-        if (System.Math.Round(pitch1, 1) == 0 && System.Math.Round(pitch2, 1) == 0.7 & System.Math.Round(pitch3, 1) == 1.2)
+        if (System.Math.Round(pitch1, 1) == 0 && System.Math.Round(pitch2, 1) == 0.7 & System.Math.Round(pitch3, 1) == 1.2 && solvedOscil == false)
         {
             mainScript.PlaySoundSolved();
             solvedOscil = true;
