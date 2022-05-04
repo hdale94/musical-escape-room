@@ -164,6 +164,7 @@ public class PianoScript : MonoBehaviour
                 }
                 break;
 
+            //Same as last case
             case 1:
                 arrayRaycastHit[1] = CharacterMainScript.raycastHit.collider.name;
                 if (CharacterMainScript.raycastHit.collider.name == arrayCorrect[1])
@@ -179,6 +180,7 @@ public class PianoScript : MonoBehaviour
                 }
                 break;
 
+            //Same as last case
             case 2:
                 arrayRaycastHit[2] = CharacterMainScript.raycastHit.collider.name;
                 if (CharacterMainScript.raycastHit.collider.name == arrayCorrect[2])
@@ -194,7 +196,8 @@ public class PianoScript : MonoBehaviour
                     switchPianoInt = 0;
                 }
                 break;
-
+            //Same as last case
+            
             case 3:
                 arrayRaycastHit[3] = CharacterMainScript.raycastHit.collider.name;
                 if (CharacterMainScript.raycastHit.collider.name == arrayCorrect[3])
@@ -214,7 +217,7 @@ public class PianoScript : MonoBehaviour
         }
 
         //Check and confirm that all keys have been played correctly
-        if ((arrayRaycastHit[0] == arrayCorrect[0]) && (arrayRaycastHit[1] == arrayCorrect[1]) && (arrayRaycastHit[2] == arrayCorrect[2]) && (arrayRaycastHit[3] == arrayCorrect[3]))
+        if ((arrayRaycastHit[0] == arrayCorrect[0]) && (arrayRaycastHit[1] == arrayCorrect[1]) && (arrayRaycastHit[2] == arrayCorrect[2]) && (arrayRaycastHit[3] == arrayCorrect[3]) && (solvedPiano == false))
         {
             mainScript.PlaySoundSolved();
             solvedPiano = true;
