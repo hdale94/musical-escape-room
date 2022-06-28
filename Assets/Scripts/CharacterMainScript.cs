@@ -34,6 +34,7 @@ public class CharacterMainScript : MonoBehaviour
     public GameObject pillow;
     public GameObject objCassettePlayerInside;
     public GameObject drawer;
+    public GameObject drawerPos; //Extra object for attaching FMOD-event to correct position
     public GameObject Textbox;
     public GameObject Box;
 
@@ -104,8 +105,8 @@ public class CharacterMainScript : MonoBehaviour
         //Drawer
         FMOD_Drawer_Out = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Drawer/DrawerOut");
         FMOD_Drawer_In = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Drawer/DrawerIn");
-        FMODUnity.RuntimeManager.AttachInstanceToGameObject(FMOD_Drawer_Out, drawer.transform, drawer.GetComponent<Rigidbody>());
-        FMODUnity.RuntimeManager.AttachInstanceToGameObject(FMOD_Drawer_In, drawer.transform, drawer.GetComponent<Rigidbody>());
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(FMOD_Drawer_Out, drawerPos.transform, drawer.GetComponent<Rigidbody>());
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(FMOD_Drawer_In, drawerPos.transform, drawer.GetComponent<Rigidbody>());
 
         //Wardrobe
         FMOD_Wardrobe_Opened = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Diverse/OpenWardrobe");
@@ -211,18 +212,19 @@ public class CharacterMainScript : MonoBehaviour
                 }
 
                 //Cassette Player
-                else if (raycastHit.collider.name == "Cassette_Play_Forward" && activateKey == true)
+                else if (raycastHit.collider.name == "Cassette_Play_Forward")
                 {
                     cassetteScript.PlayCassetteFwd();
                 }
 
-                else if (raycastHit.collider.name == "Cassette_Play_Backward" && activateKey == true)
+                else if (raycastHit.collider.name == "Cassette_Play_Backward")
                 {
                     cassetteScript.PlayCassetteBack();
                 }
 
                 else if (raycastHit.collider.name == "Cassette_Player_Box" && invCassette.activeSelf == true)
                 {
+                    cassetteScript.PlayCassetteClick();
                     invCassette.SetActive(false);
                     objCassettePlayerInside.SetActive(true);
                     activateKey = true;
@@ -318,7 +320,7 @@ public class CharacterMainScript : MonoBehaviour
     //Coroutine for opening and closing drawer
     IEnumerator DrawerCoroutine()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         openDrawer = !openDrawer;
     }
 

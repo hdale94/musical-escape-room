@@ -36,6 +36,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-9158622104086743167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637918879281573194
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-9155858097401712572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,6 +129,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-9026020462129588925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-8970595173236538028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,6 +417,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-8687787523526841461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637918905758018007
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8674332229269107695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,6 +522,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8572310346038229814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
   m_EditorClassIdentifier: 
   Name: Freq Pitch
   Min: 0
@@ -564,7 +634,7 @@ MonoBehaviour:
   Path: event:/SFX/CassettePlayer/CassettePlay
   guid: c5b1c9e432c0d94c8d8a637f0ed8b5e6
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -692,6 +762,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-8208554059365862254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637918905755538006
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8169151774491992642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,6 +869,41 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-8036380219056284238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637918908771381722
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8006898236251360475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &-8003882347757645184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -796,12 +919,12 @@ MonoBehaviour:
   Path: event:/SFX/Safe/C Sine 3
   guid: 90d5cdcb33dec44283c395a158d8fbe1
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 5987623044864936614}
+  - {fileID: -5007425594244581977}
   MinDistance: 1
   MaxDistance: 15
   Length: 3428
@@ -874,6 +997,24 @@ MonoBehaviour:
   Min: 0
   Max: 1.2
   Default: 0
+  Exists: 0
+--- !u!114 &-7925825662592236433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637918889845934103
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-7888278790868532383
 MonoBehaviour:
@@ -958,7 +1099,7 @@ MonoBehaviour:
   Path: event:/SFX/CassettePlayer/CassetteReverse
   guid: 96601ed1d03dfa49b96efd695eabb370
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -966,6 +1107,41 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 10
   Length: 7785
+--- !u!114 &-7740700347601948943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637919797535200124
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7711391739749021526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-7707516658446364612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,6 +1182,23 @@ MonoBehaviour:
   lastModified: 637263062862855935
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-7688590101201268758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
   Exists: 0
 --- !u!114 &-7651070775885723002
 MonoBehaviour:
@@ -1242,6 +1435,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-7452712814140454218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637918894759242245
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-7411364312927144100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1277,6 +1488,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-7374738860771081124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-7364481794570142722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1376,6 +1604,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-7232882851582737785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637918906760537085
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-7229977317983743069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1393,6 +1639,23 @@ MonoBehaviour:
   lastModified: 637257026910808507
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-7172154650287462336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
   Exists: 0
 --- !u!114 &-7160208020858289642
 MonoBehaviour:
@@ -1627,6 +1890,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6788646658875533931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637919797533627800
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6787230304803638778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1660,7 +1941,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/F
   guid: a752cb888e698d4186e0a3c1bb946f1a
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1820,6 +2101,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-6572260111143625830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637919815271945368
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6518110733682229116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1873,6 +2172,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 1
+--- !u!114 &-6497633935835125885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637919797790044393
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6493484011819036086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1936,6 +2253,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
+--- !u!114 &-6401481090639982334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
   m_EditorClassIdentifier: 
   Name: Freq Pitch
   Min: 0
@@ -2027,7 +2361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMODAssets/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637544290508653684
+  lastModified: 637919817948300732
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -2127,6 +2461,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6047852998881800141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &-6043218172424694505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2177,7 +2528,7 @@ MonoBehaviour:
   Path: event:/SFX/Drawer/DrawerOut
   guid: 35a97251d00b6b42a286578cf1f3a210
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -2255,6 +2606,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5931464352410378248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637918894759524992
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5903440241537679244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2272,6 +2641,23 @@ MonoBehaviour:
   lastModified: 637269187468983358
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-5898920353000387012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
   Exists: 0
 --- !u!114 &-5889170879297540573
 MonoBehaviour:
@@ -2326,6 +2712,42 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5833776657834429594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637919797792097836
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5808406611354924776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637918889845676294
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5792576518687935529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2359,6 +2781,24 @@ MonoBehaviour:
   Min: 0
   Max: 1.2
   Default: 0
+  Exists: 0
+--- !u!114 &-5750981098991051706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637918892308178623
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-5712997604296230950
 MonoBehaviour:
@@ -2410,7 +2850,7 @@ MonoBehaviour:
   Path: event:/SFX/Diverse/Pickup
   guid: 4bc6998007d1ef4c969dc87ed4e77f40
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2451,7 +2891,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/G
   guid: 1d2645c06bc40a4ba763acd977d939e6
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2776,6 +3216,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-5195836473509839415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-5127906448665357693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2810,6 +3267,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-5007425594244581977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-4997108491648633715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2984,6 +3458,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4702212216389297013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
+--- !u!114 &-4665452900753627816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &-4653944266029055942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3019,6 +3527,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4566469218425544876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637918879321639853
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4559571521138385490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3140,6 +3666,24 @@ MonoBehaviour:
   Path: ../FMOD/EscapeRoom/Build/Desktop/SFX.bank
   SubDir: 
   lastModified: 637268792144373840
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4447672437351243201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637918905756029161
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -3494,6 +4038,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-3813776354877888429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &-3805341134143515617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3510,6 +4071,24 @@ MonoBehaviour:
   Min: 0
   Max: 1.2
   Default: 0
+  Exists: 0
+--- !u!114 &-3775776651087228864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637919788616494007
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-3743988344574614310
 MonoBehaviour:
@@ -3561,7 +4140,7 @@ MonoBehaviour:
   Path: event:/SFX/Diverse/LightOnOff
   guid: 5fc5d3bfd622ca439f416cea6d604d4c
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3622,6 +4201,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3628088570421530486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637918920679035953
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-3582740298390368348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3655,6 +4252,24 @@ MonoBehaviour:
   Path: ../FMOD/EscapeRoom/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637270700858246349
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3524783882180975894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637918906760289076
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -3849,6 +4464,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-3172450097721477145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637919782349738354
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-3166480608044200074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3882,7 +4515,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/E
   guid: acac3cc82796584d90259c9ad6d18617
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3908,6 +4541,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-3056121074419274382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-3045054924316988050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3923,12 +4573,12 @@ MonoBehaviour:
   Path: event:/SFX/Safe/C Sine 2
   guid: 1bd0a38c2dcc2944b0bad3a57feb8fe3
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 1958612651612327908}
+  - {fileID: 3574241163755961327}
   MinDistance: 1
   MaxDistance: 15
   Length: 3428
@@ -4005,7 +4655,7 @@ MonoBehaviour:
   Path: event:/SFX/Diverse/Footsteps
   guid: 26299d06685c6b4db4be60c6a658c216
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -4149,7 +4799,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/D#
   guid: 887c4161e277744ca50646e9fc316d23
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4207,7 +4857,7 @@ MonoBehaviour:
   Path: event:/SFX/Drawer/DrawerIn
   guid: 646e9406ad578c4395929e5ada70cc6c
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -4267,6 +4917,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 1
+--- !u!114 &-2749114028087037374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637919817947938655
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2731891517361545646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4300,7 +4968,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/G#
   guid: d7e27d8990deea4db2a1e1f4fe1e5109
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4376,6 +5044,40 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-2644053838519401173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
+--- !u!114 &-2594155105542295024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &-2589702819347662861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4429,6 +5131,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2542197907928077500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-2540709856060168886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4496,8 +5215,8 @@ MonoBehaviour:
   Path: event:/SFX/Sequencer/Kick
   guid: 7f5695abe399aa4fbd2a12ee54491940
   Banks:
-  - {fileID: 2220389301321577404}
-  - {fileID: 1567651079211163093}
+  - {fileID: 6394199908974933811}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4516,6 +5235,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
+--- !u!114 &-2374542519524381302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
   m_EditorClassIdentifier: 
   Name: Freq Pitch
   Min: 0
@@ -4568,6 +5304,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
+--- !u!114 &-2325944151195949664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
   m_EditorClassIdentifier: 
   Name: Freq Pitch
   Min: 0
@@ -4645,6 +5398,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2279318801877551775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637918908769541558
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2274492524979021555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4662,6 +5433,23 @@ MonoBehaviour:
   lastModified: 637270693448207060
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-2258477823038891075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
   Exists: 0
 --- !u!114 &-2215399227052445815
 MonoBehaviour:
@@ -4780,6 +5568,23 @@ MonoBehaviour:
   lastModified: 637238737352464409
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-2086628702836136104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
   Exists: 0
 --- !u!114 &-2054514605121239432
 MonoBehaviour:
@@ -5003,7 +5808,7 @@ MonoBehaviour:
   Path: event:/SFX/Codelock/Beep
   guid: 227fa55d43901a44a4efee7cce565b84
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5043,7 +5848,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/C#
   guid: 3172010c4e154545865b63bf984997fd
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5122,6 +5927,23 @@ MonoBehaviour:
   FileSizes: []
   Exists: 0
 --- !u!114 &-1500209264518799472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
+--- !u!114 &-1484385139537424422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5257,7 +6079,7 @@ MonoBehaviour:
   Path: event:/Dialogue/Intro
   guid: 32c816017e09ed46b2b59e556ff7a611
   Banks:
-  - {fileID: 1150976997589695495}
+  - {fileID: -2749114028087037374}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -5338,7 +6160,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/C
   guid: a9284741ce6b6a459c497c3157222fcb
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5492,6 +6314,42 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1137988788558820115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637918908769794524
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1073826998571392375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637919812763765505
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-1070506228185414666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5546,6 +6404,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1060394891036943580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-1033936042581589042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5912,6 +6787,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-514482920012877282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637918895863174430
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-505067357005564685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5930,6 +6823,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-454006413512962984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-446883882000051691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5965,6 +6875,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &-331020522182028698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &-329882251634618021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5980,14 +6907,31 @@ MonoBehaviour:
   Path: event:/SFX/CassettePlayer/Click
   guid: 7bfb0781c1187541a0a978e7b1159d76
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 5
+  MaxDistance: 10
   Length: 715
+--- !u!114 &-321666741228478102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &-318720409636954977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6272,9 +7216,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -6337920580639466846}
-  - {fileID: 1150976997589695495}
-  - {fileID: 2220389301321577404}
-  - {fileID: 1567651079211163093}
+  - {fileID: -2749114028087037374}
+  - {fileID: 6394199908974933811}
+  - {fileID: 2123615010130879101}
   EditorEvents:
   - {fileID: 8347843355412130537}
   - {fileID: -1427748934677864382}
@@ -6316,10 +7260,10 @@ MonoBehaviour:
   - {fileID: -2715033502119239168}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 2220389301321577404}
+  - {fileID: 6394199908974933811}
   StringsBanks:
   - {fileID: -6337920580639466846}
-  stringsBankWriteTime: 637544290508653684
+  stringsBankWriteTime: 637919817948300732
   cacheVersion: 3
 --- !u!114 &32624317458364949
 MonoBehaviour:
@@ -6356,6 +7300,42 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &91245524284066447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637918892308426459
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &125723724258323121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637919788614688564
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &145993946092663017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6391,6 +7371,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &358114548514768575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637918892310038459
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &399699665174175166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6419,6 +7417,41 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
+--- !u!114 &437766936700438104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637918879280658805
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &447726704479196909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
   m_EditorClassIdentifier: 
   Name: Freq Pitch
   Min: 0
@@ -6591,7 +7624,7 @@ MonoBehaviour:
   Path: event:/Dialogue/CodeSolution
   guid: d256de8acd296e43ad2f0444c6cd4f98
   Banks:
-  - {fileID: 1150976997589695495}
+  - {fileID: -2749114028087037374}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6632,6 +7665,24 @@ MonoBehaviour:
   Min: 0
   Max: 1.2
   Default: 0
+  Exists: 0
+--- !u!114 &906780815316347394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637919788614926699
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &921060036157386819
 MonoBehaviour:
@@ -6683,12 +7734,12 @@ MonoBehaviour:
   Path: event:/SFX/Safe/C Sine 1
   guid: a69a3dacdf4abc468f114e0154d481b5
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2268285755049012437}
+  - {fileID: -2542197907928077500}
   MinDistance: 1
   MaxDistance: 15
   Length: 3428
@@ -6848,7 +7899,7 @@ MonoBehaviour:
   Path: event:/SFX/CassettePlayer/CassetteButton
   guid: b0d5d39c1f938a4fa62799bb75908d4d
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6873,7 +7924,7 @@ MonoBehaviour:
   lastModified: 637544290508082967
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &1171788269640553398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7181,7 +8232,24 @@ MonoBehaviour:
   lastModified: 637544290510806294
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &1567751216368714302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &1570081683808459335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7217,6 +8285,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1654568282895030057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637919782348180916
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &1655743436453046268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7249,7 +8335,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/D
   guid: 6a2f9bf2d73b784896a326d2021d0e89
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7576,6 +8662,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &1940606777382341039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637918895865044355
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &1958612651612327908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7592,7 +8696,7 @@ MonoBehaviour:
   Min: 0
   Max: 1.2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1962856486974998182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7610,6 +8714,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &2039599120271835329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637919812767337711
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &2061852697897643068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7644,6 +8766,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &2123615010130879101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637919817950046697
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &2131979870443921063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7702,7 +8842,7 @@ MonoBehaviour:
   lastModified: 637544290508619290
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &2228345187233478388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7771,7 +8911,7 @@ MonoBehaviour:
   Min: 0
   Max: 1.2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2272774159510154595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7857,7 +8997,7 @@ MonoBehaviour:
   Path: event:/SFX/Diverse/Click1
   guid: 618a9da7f1b3be44a7db6a597fbc0f75
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7898,7 +9038,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/A#
   guid: bdec8a674a51c54db8e0366e0a8e1aca
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8009,7 +9149,7 @@ MonoBehaviour:
   Path: event:/SFX/CassettePlayer/StaticNoise
   guid: 1e5093df0199b54eb5ee68cff5c92f1d
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -8051,6 +9191,24 @@ MonoBehaviour:
   Min: 0
   Max: 1.2
   Default: 0
+  Exists: 0
+--- !u!114 &2527730187811787518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637918895863427396
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &2541190061879003362
 MonoBehaviour:
@@ -8353,6 +9511,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &2831856436393908819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &2858527143265801810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8561,6 +9736,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &3008907709108432197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &3020688836260143016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8579,6 +9771,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3022811551255121791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &3032805565376027759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8594,7 +9803,7 @@ MonoBehaviour:
   Path: event:/SFX/Diverse/Wrong
   guid: 5da2ac3555f7bd49a4111780933ca26d
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -8654,6 +9863,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3079546134529303188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &3092301426818901653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8671,6 +9897,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &3102525678877958207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637919812764277393
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3217514211068986851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8688,6 +9932,77 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &3229137836244837696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637919782347922994
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3246286155059602854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
+--- !u!114 &3329105658756746985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637919815269981210
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3350080253193823936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637918920680598349
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3357848192365693767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8864,6 +10179,40 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &3574241163755961327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
+--- !u!114 &3583964695417793291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &3626700390188928513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8879,7 +10228,7 @@ MonoBehaviour:
   Path: event:/SFX/Sequencer/Snare
   guid: ca0f7ca105b60d4b84eaf8115f158264
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9077,6 +10426,41 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &3966342056998271061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637918894761196496
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3985756997085918525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &4020838157707052490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9183,6 +10567,23 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &4152075330698010276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
+--- !u!114 &4189977467542788099
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9325,6 +10726,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4336632986824435899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
+--- !u!114 &4386275930444183001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &4396410413716948836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9466,6 +10901,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4555235714315829267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 1/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &4589058412888215174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9519,6 +10971,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4668262745840831115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637919786610225961
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4706260677453101753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9569,7 +11039,7 @@ MonoBehaviour:
   Path: event:/SFX/Sequencer/Hihat
   guid: 199f56761c03784c9b40b031c7d9105d
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -9926,6 +11396,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &5318653243220789024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &5347770970312467454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9977,6 +11464,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &5421572534303958323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637919797533384752
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5430356993564782114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10009,7 +11514,7 @@ MonoBehaviour:
   Path: event:/SFX/Codelock/Beep Finish
   guid: 3f1a0aa45c79a44b8d29cc628fe73f90
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10432,6 +11937,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &5959047701906876636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &5977638926938228495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10466,7 +11988,7 @@ MonoBehaviour:
   Min: 0
   Max: 1.2
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &6022645178971886749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10557,6 +12079,23 @@ MonoBehaviour:
   lastModified: 637257010346822950
   LoadResult: 0
   FileSizes: []
+  Exists: 1
+--- !u!114 &6163646034494659079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
   Exists: 1
 --- !u!114 &6174691386931050624
 MonoBehaviour:
@@ -10741,6 +12280,24 @@ MonoBehaviour:
   - Name: Desktop
     Value: 688
   Exists: 0
+--- !u!114 &6394199908974933811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637919817948236259
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6399931696281251189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11009,6 +12566,78 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &6777450582929105176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637918920678832607
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6797008789361631275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637919815269693545
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6801629982658210236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637918906762144117
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6823220350935497561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637919786610498777
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6838684685359519848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11026,6 +12655,24 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &6880710862923492243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637919786612234833
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6886583171342774413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11344,6 +12991,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &7256543886824449717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &7262586003453454637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11382,7 +13046,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/F#
   guid: 13cb9c192f5d094d83edf567f901ebbf
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11509,6 +13173,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &7492813077392143817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &7503926705300303786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11614,6 +13295,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &7724648031837544399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &7754078163340968141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11631,6 +13329,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &7809836669885163906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 2/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 1
 --- !u!114 &7826837830984077093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11768,14 +13483,14 @@ MonoBehaviour:
   Path: event:/SFX/Sequencer/Solution
   guid: 79c309ed0b2ac540a9008b5c80bf9a62
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 10
-  Length: 5000
+  Length: 2650
 --- !u!114 &7928608423380893008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11917,7 +13632,7 @@ MonoBehaviour:
   Path: event:/SFX/Diverse/ClosedWardrobe
   guid: 4e9c234cad1b2545a32aa27948c75698
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -11977,6 +13692,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8269509819722403299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637918889847645296
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8315397649624054268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12010,6 +13743,24 @@ MonoBehaviour:
   Min: 0
   Max: 1.2
   Default: 0
+  Exists: 0
+--- !u!114 &8326783364545851808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637919797790302379
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &8333484733664553356
 MonoBehaviour:
@@ -12060,7 +13811,7 @@ MonoBehaviour:
   Path: event:/Dialogue/PuzzleSolve
   guid: 09d36dc4d97aa04692d480a6e41b59c3
   Banks:
-  - {fileID: 1150976997589695495}
+  - {fileID: -2749114028087037374}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -12281,7 +14032,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/A
   guid: a27e9dffa5849140ac45e84a4e050132
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -12375,7 +14126,7 @@ MonoBehaviour:
   Path: event:/SFX/Diverse/OpenWardrobe
   guid: 611ac0c8f332a94e92ee4471abf6f37c
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -12542,6 +14293,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8918304594972238023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &8929796245613333320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12653,6 +14421,23 @@ MonoBehaviour:
   Max: 1.2
   Default: 0
   Exists: 0
+--- !u!114 &9053515612607879966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/C Sine 3/Freq Pitch
+  m_EditorClassIdentifier: 
+  Name: Freq Pitch
+  Min: 0
+  Max: 1.2
+  Default: 0
+  Exists: 0
 --- !u!114 &9078635251185795729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12703,7 +14488,7 @@ MonoBehaviour:
   Path: event:/SFX/Piano/B
   guid: 27f894792d615c45ade380956a2d79d7
   Banks:
-  - {fileID: 1567651079211163093}
+  - {fileID: 2123615010130879101}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1

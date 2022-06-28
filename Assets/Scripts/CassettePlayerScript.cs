@@ -48,7 +48,7 @@ public class CassettePlayerScript : MonoBehaviour
     //Method for playing cassette forward
     public void PlayCassetteFwd()
     {
-        FMOD_Cassette_Click.start();
+        PlayCassetteClick();
 
         if (CharacterMainScript.activateKey == true)
         {
@@ -60,12 +60,18 @@ public class CassettePlayerScript : MonoBehaviour
     //Method for playing cassette backward
     public void PlayCassetteBack()
     {
-        FMOD_Cassette_Click.start();
+        PlayCassetteClick();
 
         if (CharacterMainScript.activateKey == true)
         {
             FMOD_Play_Forward.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             FMOD_Play_Backward.start();
         }
+    }
+
+    //Cassette click sound
+    public void PlayCassetteClick()
+    {
+        FMOD_Cassette_Click.start();
     }
 }
